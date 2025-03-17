@@ -1,4 +1,4 @@
 # animelist
 this is my first git repo
 <br>
-<h1>author - Shub200</h1>
+author -  <strong>Shub200</strong>
