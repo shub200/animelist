@@ -1,10 +1,10 @@
 Anime List Project
 
-📖 Overview
+<h1>📖 Overview</h1>
 
 Anime List is a web application that allows users to search and explore various anime titles. It provides details such as descriptions, genres, ratings, and more. The application fetches data from a free anime API, so there may be occasional bugs and missing information due to API limitations.
 
-🚀 Features
+<h1>🚀 Features</h1>
 
 🔍 Search for anime by title
 
@@ -16,7 +16,7 @@ Anime List is a web application that allows users to search and explore various 
 
 🎨 Simple and user-friendly UI
 
-🛠️ Technologies Used
+<h1>🛠️ Technologies Used</h1>
 
 Frontend: HTML, CSS, JavaScript (or specify framework if used)
 
@@ -24,7 +24,7 @@ Backend: (If applicable, mention any backend tech used)
 
 API: Free anime API (e.g., Jikan, AniList, etc.)
 
-⚠️ Known Issues
+<h1>⚠️ Known Issues</h1>
 
 Some anime data might be incomplete or outdated due to API limitations.
 
@@ -32,7 +32,7 @@ API request limits might cause occasional failures.
 
 Search accuracy may vary.
 
-🏗️ Installation & Setup
+<h1>🏗️ Installation & Setup</h1>
 
 Clone the repository:
 
@@ -52,7 +52,7 @@ npm start
 
 or simply open index.html in a browser if it's a static project.
 
-💡 Future Improvements
+<h1>💡 Future Improvements</h1>
 
 ✅ Improve API error handling
 
@@ -62,10 +62,10 @@ or simply open index.html in a browser if it's a static project.
 
 ✅ Enhance UI/UX
 
-🤝 Contributing
+<h1>🤝 Contributing</h1>
 
 Feel free to submit issues or pull requests if you’d like to improve the project!
 
-📜 License
+<h1>📜 License</h1>
 
 This project is open-source and available under the MIT License.
