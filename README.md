@@ -1,2 +1,4 @@
 # animelist
-this is my frist git repo
+this is my first git repo
+
+ author - Shub200
