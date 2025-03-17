@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anime list</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div  class="bg-[#111] font-sans flex-col min-h-[100vh] w-full flex justify-center items-center">
+        <h1 class="text-white absolute top-25 text-center flex-wrap text-[3vh] font-bold">Get Information About Your  Favourite Anime</h1>
+    <div class="flex justify-center items-center">
+        <input 
+    type="text" 
+    placeholder="Enter The Anime Name"
+    class="border-1 rounded w-50 my-50 p-2 bg-white"
+    >
+    <button class="mx-5 p-2 rounded bg-[#289217] text-white">Search</button>
+
+    </div>
+    <div class="bg-[#111] rounded-lg w-[100%] min-h-[90vh] flex justify-center items-center rounded my-10" style="display: none;" id="animeinfo">
+        <div class="bg-[#111] h-full flex justify-center items-center" id="img-div">
+
+        </div>
+        <div id="infodiv" class="text-white">
+           <div id="bb" class="text-center flex-col">
+            <div class="flex text-[3vw] mx-10 flex-row"><h1 class="flex justify-center items-center">Anime Name :- <h1 id="title">Sorry we dont have this data<h1 id="titleinjap">Sorry we dont have this data</h1></h1></h1></div>
+
+            
+            
+            <div class="flex text-[3vw] mx-10 flex-row"><h1 class="flex justify-center items-center">Genres :- 
+                <h1 id="genres">Sorry we dont have this data</h1>
+                <h1 id="genres1">Sorry we dont have this data</h1>
+                <h1 id="genres2">Sorry we dont have this data</h1>
+            </h1></div>
+            <div class="flex text-[3vw] mx-10 flex-row"><h1 class="flex justify-center items-center">producers :- 
+                <h1 id="producers">Sorry we dont have this data</h1>
+                <h1 id="producers1">Sorry we dont have this data</h1>
+                <h1 id="producers2">Sorry we dont have this data</h1>
+            </h1></div>
+            <div class="flex text-[3vw] mx-10 flex-row"><h1 class="flex justify-center items-center">Licensors :- <h1 id="licensors">Sorry we dont have this data</h1></h1></div>
+            <div class="flex text-[3vw] mx-10 flex-row"><h1 class="flex justify-center items-center">Short explantion :- <h1 id="background">Sorry we dont have this data</h1></h1></div>
+            <div class="flex text-[3vw] mx-10 flex-row"><h1 class="flex justify-center items-center"><h1 id="about">Sorry we dont have this data</h1></h1></div>
+            <div class="flex text-[3vw] mx-10 flex-row"><h1 class="flex justify-center items-center">Episode in this season :- <h1 id="episode">Sorry we dont have this data</h1></h1></div>
+            <div class="flex text-[3vw] mx-10 flex-row"><h1 class="flex justify-center items-center">Episode Duration :- <h1 id="duration">Sorry we dont have this data</h1></h1></div>
+            <div class="flex text-[3vw] mx-10 flex-row"><h1 class="flex justify-center items-center">Popularity All over the wolrd out of 10 :- <h1 id="pop">Sorry we dont have this data</h1></h1></div>
+            <div class="flex text-[3vw] mx-10 flex-row"><h1 class="flex justify-center items-center">first episode aired :- <h1 id="year">Sorry we dont have this data</h1></h1></div>
+            <div class="flex text-[3vw] mx-10 flex-row"><h1 class="flex justify-center items-center">Scored out of 10 :- <h1 id="score">Sorry we dont have this data</h1></h1></div>
+            <div class="flex text-[3vw] mx-10 flex-row"><h1 class="flex justify-center items-center">officel trailer on youtube :- <a src="" id="trailer">Sorry we dont have this data</a></h1></div>
+            
+           </div>
+        </div>
+    </div>
+    </div>
+<footer class="h-[50vh] bg-black flex justify-center items-center text-white">
+  <h1>Made By <a href="https://www.youtube.com/channel/UCMH6gqAhlFb4KxBd6fg3Ogw">@CodeWithShub</a> :)</h2>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
