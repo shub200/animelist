@@ -1,4 +1,4 @@
-Anime List Project
+Demo : https://allanime-info.netlify.app/
 
 <h1>📖 Overview</h1>
 
