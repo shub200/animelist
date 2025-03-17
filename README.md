@@ -1,4 +1,5 @@
 # animelist
-this is my first git repo
+
+This is my First Git Repo
 <br>
-author -  <strong>Shub200</strong>
+author - <strong>Shub200</strong>
